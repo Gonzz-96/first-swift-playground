@@ -55,3 +55,26 @@ let secondPerson = Person(firstName: "Ana" , lastName: "Bernal")
 
 firstPerson.sayHello()
 secondPerson.sayHello()
+
+// Lesson 1.3
+
+// Operators
+let x = 1
+let y = 1
+let z = x + y
+
+var a = 1
+a += 1
+a -= 1
+a *= 1
+a /= 1
+
+// A division between integer values will return an integer value
+// A division between floats/doubles will return a number with decimals
+
+let m: Double = 0.1416
+let n: Int = 3
+
+// let i = m + n ----> This code won't compile!! :P
+let i = m + Double(n) // This one will!!!
+
